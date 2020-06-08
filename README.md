@@ -22,9 +22,6 @@ Using the keyword `speedtest` in alfred, select the workflow then wait 30 second
 [![alfred-speedtest-results.png](./alfred-speedtest-results.png)](./alfred-speedtest-results.png)
 
 
-### Full length version (30 seconds of waiting for speedtest to finish)
-<img src="./alfred-speedtest-true-length.gif" alt="speedtest results true length" width="800" height="400">
-
 ## What's inside?
 
 One (long) line of code:
