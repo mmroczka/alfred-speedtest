@@ -38,7 +38,7 @@ One (long) line of code:
 
 ## Discussion
 
-On Alfred forum:
+On Alfred forum: https://www.alfredforum.com/topic/15046-alfred-wifi-speedtest/?tab=comments#comment-76923
 
 ## Known issues
 
