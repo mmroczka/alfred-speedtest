@@ -1,5 +1,5 @@
 # Alfred Workflow - Wifi Speedtest
-Test the Upload/Download speed of the wifi you're currently on
+Test the Upload/Download speed of the wifi you're currently on.
 
 [![alfred-speedtest-results.png](./alfred-speedtest-results.png)](./alfred-speedtest-results.png)
 
@@ -7,18 +7,23 @@ Test the Upload/Download speed of the wifi you're currently on
 
 1. Install `speedtest-cli` on your system using homebrew: `brew install speedtest-cli`.
 2. Download the [workflow](https://github.com/mmroczka/alfred-speedtest/blob/master/Speedtest.alfredworkflow).
-3. Double click to install it in Alfred.
+3. Double click the downloaded workflow to install it in Alfred.
 
 ## Usage
 
-Use the keyword `speedtest`, wait 30 seconds while the speedtest is running, view the notification that pops up.
+Using the keyword `speedtest` in alfred, select the workflow then wait 30 seconds while the speedtest is running (a notification will appear letting you know it's started the test). After 30 seconds, view the notification that pops up with the results of the speedtest.
 
 
 ### Shortened version (cuts 30 seconds of waiting for speedtest to finish)
-<img src="./alfred-speedtest-results-shortened.gif" alt="speedtest results short" width="800" height="400">
+<img src="./alfred-speedtest-shortened.gif" alt="speedtest results short" width="800" height="400">
 
-### Full length version
-<img src="./alfred-speedtest-results-true-length.gif" alt="speedtest results true length" width="800" height="400">
+
+### Speedtest Results
+[![alfred-speedtest-results.png](./alfred-speedtest-results.png)](./alfred-speedtest-results.png)
+
+
+### Full length version (30 seconds of waiting for speedtest to finish)
+<img src="./alfred-speedtest-true-length.gif" alt="speedtest results true length" width="800" height="400">
 
 ## What's inside?
 
@@ -37,5 +42,5 @@ On Alfred forum:
 
 ## Known issues
 
-Installing without homebrew will result in you needing to change the path name.
+Installing without homebrew will result in you needing to change the path name. Please change the path name in the bash script to wherever the `speedtest-cli` is installed on your system if you don't want to use Homebrew to install it.
 
