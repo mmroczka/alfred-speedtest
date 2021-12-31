@@ -31,7 +31,11 @@ One (long) line of code:
 |_____________________________|  |______________________________________________________________________|               |________________________|
             |                                                      |                                                                 |
     SPEEDTEST-CLI PATH           PARSE FOR THE LATEST VERSION OF SPEEDTEST IN HOMEBREW CELLAR AND RETURN IT          GRAB RESULTS OF THE UPLOAD/DOWNLOAD
+    
 ```
+
+## New bash command line for M1 Macs
+please change the command line in Alfred to the following for M1 macs - "/opt/homebrew/Cellar/speedtest-cli/$(ls /opt/homebrew/Cellar/speedtest-cli | grep "." | sort -V -r | head -n 1)/bin/speedtest | grep "Download\|Upload"
 
 ## Discussion
 
