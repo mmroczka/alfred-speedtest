@@ -35,7 +35,12 @@ One (long) line of code:
 ```
 
 ## New bash command line for M1 Macs
-please change the command line in Alfred to the following for M1 macs - "/opt/homebrew/Cellar/speedtest-cli/$(ls /opt/homebrew/Cellar/speedtest-cli | grep "." | sort -V -r | head -n 1)/bin/speedtest | grep "Download\|Upload"
+
+Please change the command line in Alfred to the following for M1 macs:
+
+```bash
+"/opt/homebrew/Cellar/speedtest-cli/$(ls /opt/homebrew/Cellar/speedtest-cli | grep "." | sort -V -r | head -n 1)/bin/speedtest | grep "Download\|Upload"
+```
 
 ## Discussion
 
